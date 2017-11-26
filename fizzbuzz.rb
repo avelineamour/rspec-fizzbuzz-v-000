@@ -1,10 +1,10 @@
 
 def fizzbuzz(number)
-  if (number / 3) == 1
+  if number == 3
     "Fizz"
-  elsif (number / 5) == 1 || (number / 5) == 2 || (number / 5) == 3
+  elsif number == 5
     "Buzz"
-  elsif (number / 3) == 5 || (number / 5) == 3
+  elsif number == 15
     "FizzBuzz"
   end
 end
