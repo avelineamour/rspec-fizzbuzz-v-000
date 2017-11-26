@@ -1,10 +1,10 @@
 
 def fizzbuzz(number)
   if (number / 3) == 1
-    puts "Fizz"
+    "Fizz"
   elsif (number / 5) == 1
-    puts "Buzz"
+    "Buzz"
   elsif (number / 3) == 5 || (number / 5) == 3
-    puts "FizzBuzz"
+    "FizzBuzz"
   end
 end
